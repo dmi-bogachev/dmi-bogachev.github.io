@@ -507,7 +507,7 @@ footer p i {
 /*----------------------------------------------------------------*/
 #banner {
   text-transform: uppercase;
-  padding: 55px 0;
+  padding: 15px 0;
   background: #f3d028;
 }
 #banner h4 {
@@ -1098,7 +1098,7 @@ footer p i {
 }
 #pageCover h3 {
   line-height: 85px;
-  background: rgba(209, 175, 4, 0.2);
+  background: rgba(001, 001, 4, 0.2);
   width: 160px;
   padding-left: 15px;
   display: inline-block;
@@ -1113,7 +1113,7 @@ footer p i {
   width: -webkit-calc(50% - 600px);
   width: calc(50% - 600px);
   height: 85px;
-  background: rgba(209, 175, 4, 0.2);
+  background: rgba(001, 001, 4, 0.2);
   position: absolute;
   left: 0;
 }
@@ -1121,14 +1121,14 @@ footer p i {
   width: -webkit-calc(100% - 160px);
   width: calc(100% - 160px);
   margin-left: 160px;
-  background: rgba(209, 175, 4, 0.2);
+  background: rgba(001, 001, 4, 0.2);
 }
 #pageCover .pageDirection:before {
   content: '';
   width: -webkit-calc(50% - 600px);
   width: calc(50% - 600px);
   height: 35px;
-  background: rgba(209, 175, 4, 0.2);
+  background: rgba(001, 001, 4, 0.2);
   position: absolute;
   right: 0;
 }
