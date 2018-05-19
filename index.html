@@ -1,303 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ягуар</title>
-    
-    <!--Favicons-->
-    <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-    <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-    <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-    <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-    <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-    <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-    <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-    <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-    <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-    <link rel="manifest" href="favicon/manifest.json">
-    <meta name="msapplication-TileColor" content="#ffffff">
-    <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
-    <meta name="theme-color" content="#ffffff">
-    
-    <!--Bootstrap and Other Vendors-->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/font-awesome.min.css">
-    <link rel="stylesheet" href="vendors/owl.carousel/css/owl.carousel.css">    
-    
-    <link rel="stylesheet" type="text/css" href="vendors/lightbox/css/lightbox.css" media="screen" />
-    <link rel="stylesheet" type="text/css" href="vendors/flexslider/flexslider.css" media="screen" />
-    
-    <!--Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
-
-    <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    
-    <!--Mechanic Styles-->
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/responsive.css">
-    
-    <!--[if lt IE 9]>
-      <script src="js/html5shiv.min.js"></script>
-      <script src="js/respond.min.js"></script>
+    <title>About</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
+    <script src="js/jquery-1.7.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/FF-cash.js"></script>
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
     <![endif]-->
+    <!--[if lt IE 9]>
+   		<script type="text/javascript" src="js/html5.js"></script>
+    	<link rel="stylesheet" type="text/css" media="screen" href="css/ie.css">
+	<![endif]-->
 </head>
 <body>
-    
-    <header class="row">
-        <div class="topRow row m0">
-            <div class="container">
-                <div class="row m0">
-                    <div class="fleft"><i class="fa fa-smile-o"></i> Ягуар Здравствуйте уважаемые посетители нашего сайта</div>
-                    <div class="fright">
-                        <div class="fleft"><i class="fa fa-clock-o"></i> Часы работы организации: понедельник-пятница (09.00 - 18.00)</div>
-                        <div class="fleft"><i class="fa fa-envelope-o"></i> почтовый адрес:mlm-lamzin@mail.ru</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        </div>
-        <div class="bottomRow row m0">
-            <div class="container">
-                <div class="row">
-                    <nav class="navbar navbar-default navbar-static-top m0">
-                        <div class="container-fluid">
-                            <div class="navbar-header">
-                                <button id="searchTrigger"><i class="fa fa-search"></i></button>
-                                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mainNav">
-                                    <i class="fa fa-bars"></i>Navigation
-                                </button>
-                                <a href="index.html" class="navbar-brand">
-                                    <img src="images/logo.png" alt="Architectura - Worldwide Foundation">
-                                </a>
-                            </div>
-                            <div class="collapse navbar-collapse" id="mainNav">
-                                <ul class="nav navbar-nav navbar-right m0">
-                                    <li class="dropdown active">
-                                        <a href="index.html">ГЛАВНАЯ</a>
-                                        </li>
-                                    <li class="dropdown">
-                                        <a href="services.html">УСЛУГИ</a>
-                                              </li>
-                                     <li class="dropdown"></li>
-                                    <li><a href="about.html">О НАС</a></li>
-									  <li class="dropdown">
-									</li>
-                                   
-                                    <li><a href="contact.html">КОНТАКТЫ</a>
-									</li>
-									 <li class="dropdown">
-									</li>
 
-                                </ul> 
-                            </div>
-                        </div>
-                    </nav>
-                </div>
+<!--==============================header=================================-->
+  <header>
+  	<div class="main">
+      <div class="wrap">
+          <h1><a href="index.html"><img src="images/logo.png" alt=""></a></h1>
+          <div class="slogan">Clients choose us!</div>
+          <div class="tooltips">
+          	<a href="#"><img src="images/icon-1.png" alt=""></a><a href="#"><img src="images/icon-2.png" alt=""></a><a href="#"><img src="images/icon-3.png" alt=""></a>
+          </div>
+      </div>
+      <div class="nav-shadow">
+      	<div>
+          <nav>
+              <ul class="menu">
+                  <li class="current"><a href="index.html">About</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="products.html">Products</a></li>
+                  <li><a href="employment.html">Employment</a></li>
+                  <li><a href="faq.html">FAQ</a></li>
+                  <li><a href="contacts.html">Contacts</a></li>
+              </ul>    
+          </nav>
+         </div> 
+      </div>
+    </div> 
+    <div class="header-content">
+      <div class="wrap main">
+      	<div class="block-1">
+        	<img src="images/page1-img1.jpg" alt="" class="img-radius">
+            <div class="border-1">
+            	<p class="color-1 p2">Security Systems for Home</p>
+                <p>Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet domingid quod mazim placerat.</p>
+                <a href="#" class="button top-1">Read More</a>
             </div>
         </div>
-    </header>
-    
-    <section id="heroBox" class="row">
-        <div class="container">
-            <h5>Добро пожаловать</h5>
-            <h2>выполняем работы в любой точке России</h2><br>
-            <h4>Мы на рынке с 2011 года</h4>
-            <a href="#">ООО "Эльбрус"</a>
-        </div>
-    </section>
-    
-    <section id="banner" class="row">
-        <div class="container">
-            <div class="row m0">
-                <h4>У НАС РАБОТАЮТ СПЕЦИАЛИСТЫ ВЫСОКОГО УРОВНЯ</h4>
-                
+        <div class="block-1">
+        	<img src="images/page1-img2.jpg" alt="" class="img-radius">
+            <div class="border-1">
+            	<p class="color-1 p2">Security Systems for Office</p>
+                <p>Facer possim assum. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod.</p>
+                <a href="#" class="button top-1">Read More</a>
             </div>
         </div>
-    </section>
-    
-    <section id="blogs" class="row homeBlogArea blogsSection">
-        <div class="container">
-            <div class="row">
-                <article class="col-sm-4 blog">
-                    <div class="row m0">
-                        <div class="post_thumbnail_row row m0">
-                            <a href="blog-single.html">
-                                <img src="images/blog/3.jpg" alt="" class="post_thumbnail">
-                                <div class="post_thumbnail_bg"></div>
-
-                            </a>
-                        </div>
-                        <h5 class="blog_title"><a href="blog-single.html">Монтаж оборудования</a></h5>
-                        <p>Важнейшим направлением деятельности нашей компании является поставка и монтаж лифтового оборудования с возможностью дальнейшего обслуживания приобретенной у нас техники.</p>
-
-                    </div>
-                </article>
-                <article class="col-sm-4 blog">
-                    <div class="row m0">
-                        <div class="post_thumbnail_row row m0">
-                            <a href="blog-single.html">
-                                <img src="images/blog/2.jpg" alt="" class="post_thumbnail">
-                                <div class="post_thumbnail_bg"></div>
-                             
-                            </a>
-                        </div>
-                        <h5 class="blog_title"><a href="blog-single.html">Пусконаладочные работы на лифтах, эскалаторах и подъёмниках</a></h5>
-                        <p>Проведение пусконаладочных работ – это целый комплекс мероприятий, направленных на обеспечение безупречной работы всего подъемного оборудования и безопасного его использования. Осуществляется этот вид деятельности после завершения монтажа.</p>
-
-                    </div>
-                </article>
-                <article class="col-sm-4 blog">
-                    <div class="row m0">
-                        <div class="post_thumbnail_row row m0">
-                            <a href="blog-single.html">
-                                <img src="images/blog/1.jpg" alt="" class="post_thumbnail">
-                                <div class="post_thumbnail_bg"></div>
-                            
-                            </a>
-                        </div>
-                        <h5 class="blog_title"><a href="blog-single.html">Проведение общестроительных работ на лифтах и подъемниках</a></h5>
-                        <p>Пусконаладочные работы лифтов включают в себя внушительный по объему комплекс мероприятий, цель которых – обеспечить бесперебойное и безопасное функционирование оборудования после его монтажа.</p>
-
-                    </div>
-                </article>
+        <div class="block-1">
+        	<img src="images/page1-img3.jpg" alt="" class="img-radius">
+            <div>
+            	<p class="color-1 p2">Special Security Systems</p>
+                <p>Tincidunt ut laoreet dolore magna aliquam erat volutpat wisi enim ad minim veniam, quis nostrud exerci tation ullamc.</p>
+                <a href="#" class="button top-1">Read More</a>
             </div>
         </div>
-    </section>
-    
-    <section id="featureBlog" class="row contentRowPad">
-        <div class="container">
-            <div class="media featureBlog">
-                <div class="media-left">
-                    <div class="post_thumbnail_row">
-                        <a href="blog-single.html">
-                         
-                            <div class="post_thumbnail_bg"></div>
-                          
-                        </a>
-                    </div>
+      </div>
+    </div>
+  </header><div class="ic"></div>
+<!--==============================content================================-->
+  <section id="content">
+      <div>
+      	<div class="wrap">
+        	<div class="col-1 border-2">
+            	<h2 class="p3">Who We Are?</h2>
+                <div class="wrap">
+                	<img src="images/page1-img4.jpg" alt="" class="img-indent img-radius">
+                    <p class="extra-wrap">Security Group is one of <a href="" class="link" target="_blank">free website templates</a> created by his website template is optimized for 1280X1024 screen resolution. This <a href="" class="link">Security Group Template</a> goes with 2 packages â with PSD source files and without them. PSD source files are available for free for the registered members of </p>
                 </div>
-                <div class="media-body">
-                    <h2 class="featureCount">featured <span class="right">02</span></h2>
-                    <h2 class="featureCount">projects <span class="right">05</span></h2>
-                    <h4 class="blog_title"><a href="blog-single.html">Гарантии качества выполняемых действий</a></h4>
-                    <p>Мы работаем в строгом соответствии с правилам поставки и монтажа сложной подъемной техники и выдаем нашим заказчикам полный пакет необходимой документации на поставленные устройства и на весь выполненный объем работ.</p>
-                    
+                <div class="wrap top-2">
+                	<ul class="list-1 fleft">
+                    	<li><a href="#">Lorem ipsum dolor sit  consetetur</a></li>
+                        <li><a href="#">Sadipscing elitred diam nonumy eirmod</a></li>
+                        <li><a href="#">Tempor invidunt labore dolore magna</a></li>
+                        <li><a href="#">Aliquyam erat, sed diam volupt</a></li>
+                    </ul>
+                    <ul class="list-1 fleft">
+                    	<li><a href="#">At vero eos et accusam et justo duo</a></li>
+                        <li><a href="#">Dolores et ea rebum. stetasd gubergren</a></li>
+                        <li><a href="#">Takimata sanctus est lorem</a></li>
+                        <li><a href="#">Psum dolor sit amet orem ipsum</a></li>
+                    </ul>
                 </div>
+                <a href="#" class="button-1 top-3">Read More</a>
             </div>
+            <div class="col-2">
+            	<h2 class="p2">Latest News</h2>
+                <a href="#" class="link-2">29.02.2011</a>
+                <p class="p4">At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus.</p>
+                <a href="#" class="link-2">27.02.2011</a>
+                <p class="p4">Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor.</p>
+                <a href="#" class="link-2">22.02.2011</a>
+                <p>Onvidunt ut labore dolore magna aliquym erat, sed diam voluptua vero eos accusam et justo duo dolores.</p>
+                <a href="#" class="button-1 top-1">Read More</a>
+            </div>    
         </div>
-    </section>
-    
-    <section id="whyChoose" class="row contentRowPad">
-        <div class="container">
-            <div class="row sectionTitle">
-                <h4>Основные задачи нашего предприятия</h4>
-                <p>Профильное направление нашей деятельности – поставка, монтаж/наладка «под ключ» и дальнейшее техническое обслуживание разнообразных подъемных устройств. Также нами выполняется замена лифтового оборудования, устаревшего или вышедшего из строя. Мы можем помочь в разработке технических условий установки подъемного оборудования и в подборе различных типов подъемного оборудования для любых типов зданий. Помочь в выборе строительного задания для проектирования любого типа подъемного оборудования и в разработке проекта на установку лифта, эскалатора и любого другого подъемного устройства. У нас так же есть возможность поставки запасных частей на многие виды подъемного оборудования непосредственно с заводов-изготовителей</p>
-            </div>
-            <div class="row text-center">
-                <img src="images/whyChoose.jpg" alt="" class="img-responsive">
-            </div>
-            <div class="row whyChooseRow">
-                <div class="col-sm-4 whyChoose">
-                    <div class="row m0">
-                        <h4><i class="fa fa-check-circle-o"></i>Получение высококачественного современного оборудования от ведущих производителей</h4>
-                        
-                    </div>
-                </div>
-                <div class="col-sm-4 whyChoose">
-                    <div class="row m0">
-                        <h4><i class="fa fa-check-circle-o"></i>Получение любых видов консультаций в части подъёмно-транспортного оборудования</h4>
-                         </div>
-                </div>
-                <div class="col-sm-4 whyChoose">
-                    <div class="row m0">
-                        <h4><i class="fa fa-check-circle-o"></i>Быстрый качественный монтаж поставленной техники<br> <br></h4>                        
-                        
-                    </div>
-                </div>
-                <div class="col-sm-4 whyChoose">
-                    <div class="row m0">
-                        <h4><i class="fa fa-check-circle-o"></i>Возможность заказа и получения запчастей</h4>                        
-                      
-                    </div>
-                </div>
-                <div class="col-sm-4 whyChoose">
-                    <div class="row m0">
-                        <h4><i class="fa fa-check-circle-o"></i>Современный передовой сервис</h4>                        
-                      
-                    </div>
-                </div>
-                <div class="col-sm-4 whyChoose">
-                    <div class="row m0">
-                        <h4><i class="fa fa-check-circle-o"></i>Минимальные цены</h4>                        
-                      
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section id="workWithUs" class="row contentRowPad">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-8 workWithUs">
-                    <h4>Сотрудничайте с нами</h4>
-                    <h2>Мы профессионально и в самые кратчайшие сроки выполним ремонт Вашего оборудования</h2>
-                    <a href="#">наверх</a>
-                </div>
-            </div>
-        </div>
-    </section>
-    
-   
-    
-  <footer class="row">
-        <div class="container">
-            
-                <p>2018 ООО "Эльбрус".</p>
-            </div>
-        </div>
-	    </footer>
-   
-    <!--jQuery, Bootstrap and other vendor JS-->
-    
-    <!--jQuery-->
-    <script src="js/jquery-2.1.3.min.js"></script>
-    
-    <!--Google Maps-->
-    <script src="https://maps.googleapis.com/maps/api/js"></script>
-    
-    <!--Bootstrap JS-->
-    <script src="js/bootstrap.min.js"></script>
-    
-    <!--Nice Scroll-->
-    <script src="vendors/nicescroll/jquery.nicescroll.js"></script>
-    
-    <!--Lightshot-->
-    <script src="vendors/lightbox/js/lightbox.min.js"></script>
-    
-    <!--Counter Up-->
-    <script src="vendors/waypoints/waypoints.min.js"></script>
-    <script src="vendors/counterup/jquery.counterup.min.js"></script>
-    
-    <!--Owl Carousel-->
-    <script src="vendors/owl.carousel/js/owl.carousel.min.js"></script>
-    
-    <!--Isotope-->
-    <script src="vendors/isotope/isotope-custom.js"></script>
-    
-    <!--FlexSlider-->
-    <script src="vendors/flexslider/jquery.flexslider-min.js"></script>
-    
-    <!--Strella JS-->
-    <script src="js/architectura.js"></script>
+      </div>
+  </section> 
+<!--==============================footer=================================-->
+  <footer>
+      <p>Consulting.com &copy; 2015
+<u><a href="http://partners-pro.ru" target="_blank">Partners-Pro.ru</a></u>&nbsp;| Бесплатное изготовление сайтов</p>
+  </footer>	<div class="container">
+<table align="center" border="0" cellpadding="0" cellspacing="0" style="height:75px; width:560px">
+	<tbody>
+		<tr>
+			<td style="height:75px; text-align:center; vertical-align:middle; width:560px">
+			<p><a href="http://partners-pro.ru" target="_blank"><img alt="Изготовление партнёрских интернет-магазинов и бесплатных сайтов" src="http://partners-pro.ru/site-free/banner.gif" style="height:75px; width:560px" /></a></p>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</div>
 </body>
 </html>
