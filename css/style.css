@@ -120,7 +120,7 @@ ul.menu li a:hover, ul.menu li.current a {color:#844c01;}
 blockquote {color:#e88800; padding-left:15px; display:inline-block;}
 
 /****************************footer************************/
-footer {width:880px; margin:0 auto; position:relative; overflow:hidden; text-align:center; padding:3px 0 3px 0;}
+footer {width:1580px; margin:0 auto; position:relative; overflow:hidden; text-align:center; padding:3px 0 3px 0;}
 
 /**********************form**********************/
 .map {width:240px; height:151px; margin:25px 0 0 0;}
