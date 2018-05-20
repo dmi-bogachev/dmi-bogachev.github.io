@@ -72,7 +72,7 @@ ul.list-2 li a:hover {text-decoration:underline;}
 .p5 {padding-bottom:20px;}
 
 /*********************************header*************************************/
-header {width:100%; background:url(../images/header.jpg) 0 0 repeat; margin:0 auto; z-index:81; position:relative; z-index:80;}
+header {width:100%; background:url(../images/header.jpg) 0 0 repeat; margin:0 auto; z-index:101; position:relative; z-index:100;}
 
 h1 {float:left; margin:46px 0 0 42px;}
 .slogan { float:left; border-left:#2f2b2b 1px solid; margin:34px 0 0 28px; padding: 18px 0 15px 29px;}
@@ -124,7 +124,7 @@ footer {width:1580px; margin:0 auto; position:relative; overflow:hidden; text-al
 
 /**********************form**********************/
 .map {width:240px; height:151px; margin:25px 0 0 0;}
-.map iframe {width:240px; height:151px; border-radius:7px;}
+.map iframe {width:540px; height:451px; border-radius:7px;}
 dl {margin:22px 0px 0 0px; float:left;}
 dl dt {}
 dl dd span { display:block; width:67px; float:left;}
